@@ -2,7 +2,7 @@
 // Esto se realiza ya que no disponemos de una funcion prompt (estamos desde node)
 
 const readLineSync = require('readline-sync');
-const {mostrarListaEstudiantes} = require('./2_clase_act1b.js');
+const {mostrarListaEstudiantes} = require('./1_actividad_b.js');
 
 const registrarEstudiantes = () => {
     const cantidadEstudiantes = readLineSync.question('Ingrese la cantidad de estudiantes a registrar: ');
