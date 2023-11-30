@@ -1,4 +1,4 @@
-// Ejecutar node.js en el navegador desde un servidor
+// Ejecutar node.js en el navegador desde un servidor utilizando el modulo http
 
 const http = require('node:http');
 
